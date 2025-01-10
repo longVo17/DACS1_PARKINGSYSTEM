@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbe183c-be49-4723-b561-f24276bba11e" name="Changes" comment="Initial commit for Parking System project" />
+    <list default="true" id="5bbe183c-be49-4723-b561-f24276bba11e" name="Changes" comment="complete update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client_2.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,27 +30,40 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "longVo17"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;longVo17&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/longVo17/DACS1_PARKINGSYSTEM.git",
-    "accountId": "af9cc492-24c7-437c-ad35-e4ef5060a183"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/longVo17/DACS1_PARKINGSYSTEM.git&quot;,
+    &quot;accountId&quot;: &quot;af9cc492-24c7-437c-ad35-e4ef5060a183&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/22-ea+11/javafx-graphics-22-ea+11-sources.jar!/com/sun/glass/ui/win/WinApplication.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -66,63 +83,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Client.executor": "Run",
-    "Application.DailyTicket.executor": "Run",
-    "Application.DailyTicketRun.executor": "Run",
-    "Application.HelloApplication.executor": "Debug",
-    "Application.LoginController.executor": "Run",
-    "Application.LoginRun.executor": "Run",
-    "Application.MainMenu.executor": "Run",
-    "Application.MainRun.executor": "Run",
-    "Application.ManagerDao.executor": "Run",
-    "Application.MenuParking.executor": "Run",
-    "Application.MenuParkingRun.executor": "Run",
-    "Application.MonthlyTicket.executor": "Run",
-    "Application.ParkingLotRun.executor": "Run",
-    "Application.ParkingLotServer.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Unnamed.executor": "Debug",
-    "Application.UserAccount.executor": "Run",
-    "Application.client.executor": "Run",
-    "Application.client_2.executor": "Run",
-    "Application.server.executor": "Run",
-    "Application.statisticsRun.executor": "Run",
-    "Application.test.executor": "Run",
-    "Application.test_InHoaDon.executor": "Run",
-    "Application.test_dao.executor": "Run",
-    "Application.test_fee.executor": "Debug",
-    "Application.test_vehicleDao.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JAVA PROJECT/DACK2_2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "two.files.diff.last.used.folder": "D:/JAVA PROJECT/DACS1/src/Hibernate_Parking",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DailyTicket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DailyTicketRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LoginController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManagerDao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuParking.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuParkingRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonthlyTicket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParkingLotRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParkingLotServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UserAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.client_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.statisticsRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test_InHoaDon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test_dao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test_fee.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.test_vehicleDao.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA PROJECT/DACK2_2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;D:/JAVA PROJECT/DACS1/src/Hibernate_Parking&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\Statistics\imagesStatistics" />
@@ -320,7 +337,7 @@
       <workItem from="1719307844120" duration="1203000" />
       <workItem from="1719340721600" duration="1917000" />
       <workItem from="1719369470883" duration="587000" />
-      <workItem from="1736527235457" duration="2627000" />
+      <workItem from="1736527235457" duration="3518000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit for Parking System project">
       <option name="closed" value="true" />
@@ -330,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736529195022</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete update">
+      <option name="closed" value="true" />
+      <created>1736530557476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736530557476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +387,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit for Parking System project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for Parking System project" />
+    <MESSAGE value="complete update" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
