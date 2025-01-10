@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bbe183c-be49-4723-b561-f24276bba11e" name="Changes" comment="Initial commit for Parking System project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "longVo17"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/longVo17/DACS1_PARKINGSYSTEM.git",
+    "accountId": "af9cc492-24c7-437c-ad35-e4ef5060a183"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/22-ea+11/javafx-graphics-22-ea+11-sources.jar!/com/sun/glass/ui/win/WinApplication.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2gFLzKlfk0HX8HBKeAYIC0zXotl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Client.executor": "Run",
+    "Application.DailyTicket.executor": "Run",
+    "Application.DailyTicketRun.executor": "Run",
+    "Application.HelloApplication.executor": "Debug",
+    "Application.LoginController.executor": "Run",
+    "Application.LoginRun.executor": "Run",
+    "Application.MainMenu.executor": "Run",
+    "Application.MainRun.executor": "Run",
+    "Application.ManagerDao.executor": "Run",
+    "Application.MenuParking.executor": "Run",
+    "Application.MenuParkingRun.executor": "Run",
+    "Application.MonthlyTicket.executor": "Run",
+    "Application.ParkingLotRun.executor": "Run",
+    "Application.ParkingLotServer.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Unnamed.executor": "Debug",
+    "Application.UserAccount.executor": "Run",
+    "Application.client.executor": "Run",
+    "Application.client_2.executor": "Run",
+    "Application.server.executor": "Run",
+    "Application.statisticsRun.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.test_InHoaDon.executor": "Run",
+    "Application.test_dao.executor": "Run",
+    "Application.test_fee.executor": "Debug",
+    "Application.test_vehicleDao.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JAVA PROJECT/DACK2_2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "two.files.diff.last.used.folder": "D:/JAVA PROJECT/DACS1/src/Hibernate_Parking",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\Statistics\imagesStatistics" />
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\userAccount\imagesUserAccount" />
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\ParkingLot\imagesParkingLot" />
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\MenuParkingLot\imagesMenuParkingLot" />
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\DailyTicket\imagesDailyTicket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\DailyTicket" />
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\Statistics" />
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\Statistics\imagesStatistics" />
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org" />
+      <recent name="D:\JAVA PROJECT\DACS1\src\main\resources\org\MainMenu\imagesMainMenu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Server" />
+      <recent name="Model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LoginRun">
+    <configuration name="DailyTicket" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.DailyTicket.DailyTicketRun" />
+      <module name="DACS1_1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JAVA PROJECT\openjfx-22_windows-x64_bin-sdk\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginRun" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.LoginForm.LoginRun" />
+      <module name="DACS1_1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JAVA PROJECT\openjfx-22_windows-x64_bin-sdk\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMenu" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.MainMenu.MainRun" />
+      <module name="DACS1_1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JAVA PROJECT\openjfx-22_windows-x64_bin-sdk\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuParking" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.MenuParkingLot.MenuParkingRun" />
+      <module name="DACS1_1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JAVA PROJECT\openjfx-22_windows-x64_bin-sdk\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonthlyTicket" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.MonthlyTicket.MonthlyTicketRun" />
+      <module name="DACS1_1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JAVA PROJECT\openjfx-22_windows-x64_bin-sdk\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotRun" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.ParkingLot.parkingLotRun" />
+      <module name="DACS1_1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JAVA PROJECT\openjfx-22_windows-x64_bin-sdk\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAccount" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.UserAccount.UserAccountRun" />
+      <module name="DACS1_1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JAVA PROJECT\openjfx-22_windows-x64_bin-sdk\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Server.Client" />
+      <module name="DACS1_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Server.ParkingLotServer" />
+      <module name="DACS1_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="statisticsRun" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.Statistics.StatisticsRun" />
+      <module name="DACS1_1" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JAVA PROJECT\openjfx-22_windows-x64_bin-sdk\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.server" />
+      <item itemvalue="Application.client" />
+      <item itemvalue="Application.statisticsRun" />
+      <item itemvalue="Application.DailyTicket" />
+      <item itemvalue="Application.UserAccount" />
+      <item itemvalue="Application.MenuParking" />
+      <item itemvalue="Application.MonthlyTicket" />
+      <item itemvalue="Application.ParkingLotRun" />
+      <item itemvalue="Application.MainMenu" />
+      <item itemvalue="Application.LoginRun" />
+      <item itemvalue="Attach to Node.js/Chrome.Unnamed" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bbe183c-be49-4723-b561-f24276bba11e" name="Changes" comment="" />
+      <created>1715288641603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715288641603</updated>
+      <workItem from="1715288642685" duration="3952000" />
+      <workItem from="1715293516387" duration="3384000" />
+      <workItem from="1715323592468" duration="7846000" />
+      <workItem from="1715350251114" duration="4882000" />
+      <workItem from="1715435593387" duration="2464000" />
+      <workItem from="1715439161811" duration="2403000" />
+      <workItem from="1715453715400" duration="14170000" />
+      <workItem from="1715647682102" duration="19040000" />
+      <workItem from="1715745565283" duration="4697000" />
+      <workItem from="1715797615109" duration="13063000" />
+      <workItem from="1715862552345" duration="629000" />
+      <workItem from="1716019729372" duration="18406000" />
+      <workItem from="1716125853469" duration="6282000" />
+      <workItem from="1716165036623" duration="67000" />
+      <workItem from="1716172351262" duration="152000" />
+      <workItem from="1716221467797" duration="1902000" />
+      <workItem from="1716224133682" duration="2607000" />
+      <workItem from="1716255338489" duration="1216000" />
+      <workItem from="1716343060915" duration="1145000" />
+      <workItem from="1716344238873" duration="7961000" />
+      <workItem from="1716385485971" duration="6895000" />
+      <workItem from="1716392533253" duration="10564000" />
+      <workItem from="1716434848104" duration="32514000" />
+      <workItem from="1716523477172" duration="14916000" />
+      <workItem from="1716568290783" duration="28515000" />
+      <workItem from="1716711641728" duration="313000" />
+      <workItem from="1716713413125" duration="566000" />
+      <workItem from="1716881316484" duration="12447000" />
+      <workItem from="1716910629306" duration="895000" />
+      <workItem from="1716971280852" duration="7532000" />
+      <workItem from="1716998299979" duration="21754000" />
+      <workItem from="1717054516201" duration="1094000" />
+      <workItem from="1717081023834" duration="17076000" />
+      <workItem from="1717121763470" duration="26443000" />
+      <workItem from="1717341286422" duration="3387000" />
+      <workItem from="1717344751596" duration="208000" />
+      <workItem from="1717345014345" duration="870000" />
+      <workItem from="1717345919207" duration="2877000" />
+      <workItem from="1717641683837" duration="44000" />
+      <workItem from="1717643089087" duration="3731000" />
+      <workItem from="1717728571495" duration="6920000" />
+      <workItem from="1718013691164" duration="1005000" />
+      <workItem from="1718016358136" duration="698000" />
+      <workItem from="1718018888894" duration="7375000" />
+      <workItem from="1718140626208" duration="5070000" />
+      <workItem from="1718254973067" duration="11466000" />
+      <workItem from="1718335751808" duration="3947000" />
+      <workItem from="1718341039029" duration="4344000" />
+      <workItem from="1718369375550" duration="872000" />
+      <workItem from="1718371168185" duration="5105000" />
+      <workItem from="1718412310550" duration="1883000" />
+      <workItem from="1718506080018" duration="9114000" />
+      <workItem from="1718539911928" duration="1078000" />
+      <workItem from="1718541782529" duration="1613000" />
+      <workItem from="1718543448304" duration="8489000" />
+      <workItem from="1718592639223" duration="3097000" />
+      <workItem from="1718628475145" duration="114000" />
+      <workItem from="1718628607943" duration="18000" />
+      <workItem from="1718629039269" duration="613000" />
+      <workItem from="1718853544507" duration="32000" />
+      <workItem from="1719164609558" duration="7883000" />
+      <workItem from="1719281157460" duration="1391000" />
+      <workItem from="1719307844120" duration="1203000" />
+      <workItem from="1719340721600" duration="1917000" />
+      <workItem from="1719369470883" duration="587000" />
+      <workItem from="1736527235457" duration="2627000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit for Parking System project">
+      <option name="closed" value="true" />
+      <created>1736529195022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736529195022</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit for Parking System project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for Parking System project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/DailyTicket/DailyTicketController.java</url>
+          <line>367</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/MonthlyTicket/MonthlyTicketController.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Statistics/StatisticsController.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/MonthlyTicket/MonthlyTicketController.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

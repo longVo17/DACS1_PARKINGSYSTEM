@@ -1,0 +1,80 @@
+.btn {
+    -fx-text-fill: transparent;
+    -fx-background-color: transparent;
+}
+.txt {
+    /*-fx-background-color: transparent;*/
+    /*-fx-border-color: transparent;*/
+    -fx-text-fill: #310569;
+    -fx-font-weight: bold;
+    /*-fx-font-size: 19px;*/
+    -fx-alignment: CENTER;
+    -fx-font-size: 16px;
+
+}
+
+.txtAccount {
+    -fx-font-size: 18;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+}
+
+#txtEmailAccount {
+    -fx-font-size: 14;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+
+}
+#txtNumberPlate {
+    -fx-background-color: transparent; /* Make the background transparent */
+    -fx-border-color: transparent; /* Remove the border */
+    -fx-text-fill: #ffffff; /* Set the text color */
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-alignment: CENTER;
+}
+#boxType {
+    -fx-font-weight: bold;
+    /*-fx-background-color: transparent;*/
+    -fx-alignment: CENTER;
+}
+#boxType .list-cell {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffc400;
+    -fx-background-color: #75736c;
+    -fx-font-weight: bold;
+}
+#boxTypeVehicle {
+    -fx-font-weight: bold;
+    /*-fx-background-color: transparent;*/
+    -fx-alignment: CENTER;
+}
+#boxTypeVehicle .list-cell {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #75736c;
+    -fx-font-weight: bold;
+}
+.txtSearch {
+    -fx-background-color: #737070;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-alignment: CENTER;
+}
+#ParkingLotName {
+    -fx-background-color: transparent; /* Make the background transparent */
+    -fx-border-color: transparent; /* Remove the border */
+    -fx-text-fill: #310569; /* Set the text color */
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-alignment: CENTER;
+}
+#table .col {
+    -fx-alignment: CENTER;
+    -fx-text-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+}

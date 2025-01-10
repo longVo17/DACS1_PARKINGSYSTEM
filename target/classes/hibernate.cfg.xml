@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:sqlserver://localhost:1433;databaseName=ParkingLotManagerment;encrypt=true;trustServerCertificate=true;</property>
+    <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="connection.username">sa</property>
+    <property name="connection.password">thanhlong10</property>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!--    Nếu mỗi lần tạo dự án ta xóa sạch dữ liệu và tạo lại thì -->
+    <!--      <property name="hibernate.hbm2ddl.auto">create-drop</property>-->
+    <!-- DB schema will be updated if needed -->
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <!--    xem câu lệnh sql khi chạy-->
+    <property name="show-sql">>true</property>
+
+    <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+
+    <!--    tạo mql giữa các class-->
+    <mapping class="Model.ParkingLot"/>
+    <mapping class="Model.Manager"/>
+    <mapping class="Model.Area"/>
+    <mapping class="Model.Vehicle"/>
+
+
+  </session-factory>
+</hibernate-configuration>

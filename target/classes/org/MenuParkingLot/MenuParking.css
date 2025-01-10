@@ -1,0 +1,71 @@
+
+.btn {
+    -fx-text-fill: transparent;
+    -fx-background-color: transparent;
+
+}
+
+#btnUser:hover {
+    -fx-text-fill: transparent;
+    -fx-background-color: transparent;
+}
+
+
+#username {
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER-RIGHT;
+}
+#btnCloseMenu {
+    -fx-text-fill: transparent;
+    -fx-background-color: transparent;
+
+}
+#slider {
+    -fx-background-radius: 10; /* Bo tròn */
+    -fx-border-radius: 10; /* Bo tròn */
+    -fx-border-width: 2; /* Độ rộng viền */
+    -fx-padding: 10; /* Khoảng cách giữa viền và nội dung */
+    -fx-text-fill: transparent;
+    -fx-background-color: transparent;
+}
+#labelVacancyMoto {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f5b32b;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+}
+#labelVacancyCar {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+}
+#lblParkingLotName {
+    -fx-font-size: 60;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+}
+
+
+#lblAddress {
+    -fx-font-size: 20;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+}
+.txtAccount {
+    -fx-font-size: 18;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+}
+#txtEmail {
+    -fx-font-size: 15;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+}

@@ -1,0 +1,62 @@
+#pnLogin {
+    -fx-background-color: #f0f8ff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+    positon:fix;
+}
+#pnLeft {
+    -fx-background-color: #f0f8ff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+}
+#overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+}
+#forgetPasswordButton, #aboutus {
+    -fx-background-color: transparent; /* Make the button transparent */
+    -fx-border-color: transparent; /* Remove the border */
+    -fx-font-weight: bold;
+
+}
+#login {
+    -fx-background-color: #0095ff; /* Make the button transparent */
+    -fx-border-color: transparent; /* Remove the border */
+    -fx-font-weight: bold;
+    -fx-cursor:  hand;
+}
+#login:hover {
+    -fx-background-color: #4ebe4e; /* Make the button transparent */
+    -fx-border-color: transparent; /* Remove the border */
+    -fx-font-weight: bold;
+
+}
+
+#usernameField, #passwordField {
+    -fx-background-color: transparent; /* Make the background transparent */
+    -fx-border-color: transparent; /* Remove the border */
+    -fx-text-fill: #ffffff; /* Set the text color */
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+#aboutus {
+    -fx-background-color: #7300ff; /* Make the button transparent */
+    -fx-border-color: transparent; /* Remove the border */
+    -fx-font-weight: bold;
+}
+#paneLoading {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+    -fx-font-weight: bold;
+
+}
+

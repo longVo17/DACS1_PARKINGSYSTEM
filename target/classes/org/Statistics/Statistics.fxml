@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="781.0" prefWidth="1394.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.Statistics.StatisticsController">
+    <children>
+        <Label id="ParkingLotName" fx:id="lblParkingLot" alignment="CENTER" layoutX="656.0" layoutY="14.0" prefHeight="30.0" prefWidth="224.0" text="Label" />
+        <ImageView id="background" fitHeight="789.0" fitWidth="1406.0" layoutX="-2.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@imagesStatistics/background.png" />
+            </image>
+            <viewport>
+                <Rectangle2D height="504.0" />
+            </viewport>
+        </ImageView>
+        <Button id="btnMenu" fx:id="btnMenu" layoutX="-1.0" layoutY="3.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="63.0" styleClass="btn" text="Button" />
+        <Button id="btnAccount" fx:id="btnAccount" layoutX="1322.0" layoutY="7.0" mnemonicParsing="false" onAction="#toggleAccount" prefHeight="33.0" prefWidth="63.0" styleClass="btn" />
+        <Label id="username" fx:id="Username" alignment="CENTER_RIGHT" layoutX="1086.0" layoutY="4.0" prefHeight="40.0" prefWidth="231.0" text="Label" textAlignment="RIGHT">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label id="ParkingLotName" fx:id="lblParkingName" alignment="CENTER" layoutX="656.0" layoutY="14.0" prefHeight="30.0" prefWidth="224.0" text="Label" />
+        <Label fx:id="vacancyCar" layoutX="706.0" layoutY="743.0" prefHeight="33.0" prefWidth="208.0" styleClass="labelVacancy" text="Label" />
+      <DatePicker fx:id="dateFrom" layoutX="807.0" layoutY="197.0" prefHeight="25.0" prefWidth="166.0" styleClass="datePicker" />
+      <DatePicker fx:id="dateTo" layoutX="1045.0" layoutY="196.0" prefHeight="25.0" prefWidth="160.0" styleClass="datePicker" />
+      <Button id="btnAccount" fx:id="btnUpdate" layoutX="1305.0" layoutY="182.0" mnemonicParsing="false" onAction="#getReturnedVehicles" prefHeight="33.0" prefWidth="63.0" styleClass="btn" />
+        <Button fx:id="btnReport" layoutX="1195.0" layoutY="737.0" mnemonicParsing="false" onAction="#createInvoicePdf" prefHeight="30.0" prefWidth="181.0" styleClass="btn" text="exel" />
+      <Button layoutX="112.0" layoutY="173.0" mnemonicParsing="false" onAction="#switchtoStatistics_chart" prefHeight="40.0" prefWidth="241.0" styleClass="btn" text="viewChart" />
+      <TextField fx:id="txtTotalRevenue" layoutX="102.0" layoutY="296.0" prefHeight="45.0" prefWidth="346.0" styleClass="txtBig" />
+      <TextField fx:id="txtTotalVehicle" layoutX="101.0" layoutY="421.0" prefHeight="45.0" prefWidth="349.0" styleClass="txtBig" />
+      <TextField fx:id="txtCar" layoutX="231.0" layoutY="528.0" prefHeight="38.0" prefWidth="218.0" styleClass="txtSmall" />
+      <TextField fx:id="txtMoto" layoutX="232.0" layoutY="599.0" prefHeight="38.0" prefWidth="218.0" styleClass="txtSmall" />
+      <TextField fx:id="txtBicycle" layoutX="231.0" layoutY="680.0" prefHeight="40.0" prefWidth="218.0" styleClass="txtSmall" />
+      <Button fx:id="btnReport1" layoutX="1014.0" layoutY="736.0" mnemonicParsing="false" onAction="#createInvoicePdf" prefHeight="29.0" prefWidth="156.0" styleClass="btn" text="pdf" />
+      <TableView id="table" fx:id="tableBill" layoutX="476.0" layoutY="255.0" prefHeight="467.0" prefWidth="904.0">
+        <columns>
+            <TableColumn fx:id="colId" minWidth="5.86663818359375" prefWidth="76.0" styleClass="col" text="ID TICKET" />
+            <TableColumn fx:id="colVehicle" minWidth="5.86663818359375" prefWidth="113.5999755859375" styleClass="col" text="TYPE OF VEHICLE" />
+            <TableColumn fx:id="colPlates" minWidth="5.86663818359375" prefWidth="110.4000244140625" styleClass="col" text="NUMBER PLATES" />
+          <TableColumn fx:id="colReceipt" prefWidth="152.0" styleClass="col" text="DATE RECEIPT" />
+            <TableColumn fx:id="colReturn" minWidth="5.86663818359375" prefWidth="183.20001220703125" styleClass="col" text="DATE RETURN" />
+            <TableColumn fx:id="colFee" minWidth="5.86663818359375" prefWidth="87.199951171875" styleClass="col" text="FEE" />
+            <TableColumn fx:id="colPenalty" minWidth="0.0" prefWidth="87.199951171875" styleClass="col" text="PENALTY FEES" />
+            <TableColumn fx:id="colTotal" minWidth="5.86663818359375" prefWidth="103.7335205078125" styleClass="col" text="TOTAL" />
+        </columns>
+      </TableView>
+        <AnchorPane fx:id="sliderAccount" layoutX="1125.0" layoutY="42.0" prefHeight="420.0" prefWidth="277.0" style="-fx-background-color: white;">
+            <children>
+                <ImageView fitHeight="438.0" fitWidth="281.0" layoutX="-12.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@imagesStatistics/account.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="btnLogOut" layoutX="74.0" layoutY="381.0" mnemonicParsing="false" onAction="#switchtoLogin" prefHeight="35.0" prefWidth="129.0" styleClass="btn" text="Button" />
+                <Label fx:id="txtRole" alignment="CENTER" layoutX="17.0" layoutY="71.0" prefHeight="30.0" prefWidth="224.0" styleClass="txtAccount" text="Label" />
+                <Label id="txtEmail" fx:id="txtEmail" alignment="CENTER" layoutX="20.0" layoutY="169.0" prefHeight="30.0" prefWidth="224.0" text="Label" />
+                <Label fx:id="txtPhone" alignment="CENTER" layoutX="16.0" layoutY="265.0" prefHeight="34.0" prefWidth="231.0" styleClass="txtAccount" text="Label" />
+            </children>
+        </AnchorPane>
+        <Pane fx:id="overlay" mouseTransparent="true" prefHeight="824.0" prefWidth="1442.0" style="-fx-background-color: rgba(0, 0, 0, 0.5);" visible="false" />
+
+        <AnchorPane id="slider" fx:id="slider" layoutX="-14.0" layoutY="-2.0" prefHeight="215.0" prefWidth="279.0">
+            <children>
+                <ImageView fitHeight="807.0" fitWidth="299.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@imagesStatistics/sliderMenu.png" />
+                    </image>
+                </ImageView>
+                <Button id="btnCloseMenu" fx:id="closeMenu" layoutX="253.0" layoutY="6.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" styleClass="btn" text="x">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btnMenuDaily" layoutX="51.0" layoutY="234.0" mnemonicParsing="false" onAction="#switchtoDailyTicket" prefHeight="50.0" prefWidth="218.0" styleClass="btn" text="daily" />
+                <Button fx:id="btnMonthly" layoutX="50.0" layoutY="332.0" mnemonicParsing="false" onAction="#switchtoSceneMonthlyTicket" prefHeight="60.0" prefWidth="224.0" styleClass="btn" text="monthly" />
+                <Button fx:id="btnMenuParkingLot" layoutX="43.0" layoutY="433.0" mnemonicParsing="false" onAction="#switchtoSceneParkingLot" prefHeight="60.0" prefWidth="224.0" styleClass="btn" text="parkingLot" />
+                <Button fx:id="btnMenuAccount" layoutX="37.0" layoutY="533.0" mnemonicParsing="false" onAction="#switchtoUserAccount" prefHeight="60.0" prefWidth="224.0" styleClass="btn" text="Account" />
+                <Button fx:id="btnMenuStaticsts" layoutX="42.0" layoutY="621.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="224.0" styleClass="btn" text="staticsts" />
+                <Button fx:id="btnMenuMainMenu" layoutX="59.0" layoutY="737.0" mnemonicParsing="false" onAction="#switchtoSceneParkingMenu" prefHeight="38.0" prefWidth="181.0" styleClass="btn" text="menu" />
+            </children>
+        </AnchorPane>
+
+    </children>
+</Pane>
