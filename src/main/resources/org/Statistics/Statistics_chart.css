@@ -1,0 +1,85 @@
+.default-color0.chart-bar { -fx-bar-fill: orange; } /* Cars */
+.default-color1.chart-bar { -fx-bar-fill: green; }
+
+.btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: transparent;
+    -fx-cursor:  hand;
+}
+
+#table .col {
+    -fx-alignment: CENTER;
+    -fx-text-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+}
+.txtSmall {
+    -fx-font-size: 20px;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+}
+.txtBig {
+    -fx-alignment: CENTER;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+}
+
+.datePicker {
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+}
+
+
+#btnPie:hover {
+    -fx-cursor:  hand;
+}
+#pieChart {
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ececec;
+    -fx-text-alignment: CENTER;
+}
+#pieChart .chart-title {
+    -fx-text-fill: #e0e0e0;
+}
+
+#pieChart .chart-pie-label-line, #pieChart .chart-pie-label {
+    -fx-stroke: #c5c5c5;
+    -fx-fill: #ffffff;
+}
+#barChart .chart-title {
+    -fx-text-fill: #e0e0e0;
+}
+
+#barChart .chart-bar {
+    -fx-stroke: #c5c5c5;
+    -fx-fill: #ffffff;
+}
+
+#barChart .chart-legend {
+    -fx-text-fill: #e0e0e0;
+}
+
+#barChart .chart-legend-item-symbol {
+    -fx-background-color: #ffffff;
+}
+
+#stackedBarChart .chart-title {
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e0e0;
+}
+#stackedBarChart .chart-bar {
+    -fx-stroke: #c5c5c5;
+    -fx-fill: #ffffff;
+}
+#stackedBarChart .chart-legend {
+    -fx-text-fill: #e0e0e0;
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="781.0" prefWidth="1394.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.DailyTicket.DailyTicketController">
+    <children>
+        <ImageView id="background" fitHeight="789.0" fitWidth="1406.0" layoutX="-2.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@imagesDailyTicket/background.png" />
+            </image>
+            <viewport>
+                <Rectangle2D height="504.0" />
+            </viewport>
+        </ImageView>
+        <Button id="btnMenu" fx:id="btnMenu" layoutX="-1.0" layoutY="3.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="63.0" styleClass="btn" text="Button" />
+        <Button id="btnAccount" fx:id="btnAccount" layoutX="1322.0" layoutY="7.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="74.0" styleClass="btn" />
+      <ComboBox fx:id="boxType" layoutX="729.0" layoutY="384.0" prefHeight="40.0" prefWidth="365.0" />
+      <TextField fx:id="txtNumberPlate" layoutX="729.0" layoutY="318.0" prefHeight="40.0" prefWidth="366.0" />
+        <Button fx:id="btnAuto" layoutX="197.0" layoutY="658.0" mnemonicParsing="false" onAction="#ChooseImage" prefHeight="43.0" prefWidth="166.0" styleClass="btn" text="Button" />
+        <Button fx:id="btnCancel" layoutX="807.0" layoutY="230.0" mnemonicParsing="false" onAction="#Cancel" prefHeight="50.0" prefWidth="215.0" styleClass="btn" text="cacenl" />
+        <Button fx:id="btnPickUp" layoutX="549.0" layoutY="235.0" mnemonicParsing="false" onAction="#PickupVehicle" prefHeight="47.0" prefWidth="218.0" styleClass="btn" text="pickup" />
+        <Label id="username" fx:id="Username" alignment="CENTER_RIGHT" layoutX="1033.0" layoutY="10.0" prefHeight="40.0" prefWidth="277.0" text="Label" textAlignment="RIGHT">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="29.0" />
+            </font>
+        </Label>
+      <TableView id="table" fx:id="tableDaily" layoutX="510.0" layoutY="453.0" prefHeight="264.0" prefWidth="867.0">
+        <columns>
+          <TableColumn fx:id="colNo" prefWidth="41.5999755859375" styleClass="col" text="No " />
+          <TableColumn fx:id="colIdTicket" prefWidth="87.20001220703125" styleClass="col" text="TICKET ID " />
+            <TableColumn fx:id="colNumberPlate" prefWidth="159.99993896484375" styleClass="col" text="NUMBER PLATES" />
+            <TableColumn fx:id="colTypeOfVehicle" prefWidth="110.6666259765625" styleClass="col" text="TYPE OF VEHICLE" />
+            <TableColumn fx:id="colDateReceipt" prefWidth="166.933349609375" styleClass="col" text="DATE OF RECEIPT" />
+            <TableColumn fx:id="colDateExpired" prefWidth="179.199951171875" styleClass="col" text="DATE OF EXPIRED" />
+            <TableColumn fx:id="Manager" prefWidth="120.800048828125" styleClass="col" text="STAFF" />
+        </columns>
+      </TableView>
+
+        <AnchorPane fx:id="sliderAccount" layoutX="1125.0" layoutY="65.0" prefHeight="420.0" prefWidth="277.0" style="-fx-background-color: white;">
+            <children>
+                <ImageView fitHeight="438.0" fitWidth="281.0" layoutX="-12.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@imagesDailyTicket/account.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="btnLogOut" layoutX="74.0" layoutY="381.0" mnemonicParsing="false" onAction="#switchtoLogin" prefHeight="35.0" prefWidth="129.0" styleClass="btn" text="Button" />
+                <Label fx:id="txtRole" alignment="CENTER" layoutX="17.0" layoutY="71.0" prefHeight="30.0" prefWidth="224.0" styleClass="txtAccount" text="Label" />
+                <Label id="txtEmail" fx:id="txtEmail" alignment="CENTER" layoutX="20.0" layoutY="169.0" prefHeight="30.0" prefWidth="224.0" text="Label" />
+                <Label fx:id="txtPhone" alignment="CENTER" layoutX="16.0" layoutY="265.0" prefHeight="34.0" prefWidth="231.0" styleClass="txtAccount" text="Label" />
+            </children></AnchorPane>
+
+
+      <AnchorPane fx:id="containerImg" layoutX="110.0" layoutY="325.0" prefHeight="275.0" prefWidth="344.0">
+         <children>
+            <ImageView fx:id="imgViewChoose" fitHeight="297.0" fitWidth="355.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+        <Label id="ParkingLotName" fx:id="lblParkingLot" alignment="CENTER" layoutX="656.0" layoutY="14.0" prefHeight="30.0" prefWidth="224.0" text="Label" />
+        <Pane fx:id="overlay" mouseTransparent="true" prefHeight="824.0" prefWidth="1442.0" style="-fx-background-color: rgba(0, 0, 0, 0.5);" visible="false" />
+      <Label fx:id="vacancyMoto" layoutX="1161.0" layoutY="743.0" prefHeight="33.0" prefWidth="208.0" styleClass="labelVacancy" text="Label" />
+      <Label fx:id="vacancyCar" layoutX="706.0" layoutY="743.0" prefHeight="33.0" prefWidth="208.0" styleClass="labelVacancy" text="Label" />
+        <AnchorPane id="slider" fx:id="slider" layoutX="-14.0" layoutY="-2.0" prefHeight="215.0" prefWidth="279.0">
+            <children>
+                <ImageView fitHeight="807.0" fitWidth="299.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@imagesDailyTicket/sliderMenu.png" />
+                    </image>
+                </ImageView>
+                <Button id="btnCloseMenu" fx:id="closeMenu" layoutX="253.0" layoutY="6.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" styleClass="btn" text="x">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            <Button fx:id="btnMenuDaily" layoutX="51.0" layoutY="234.0" mnemonicParsing="false" onAction="#switchtoSceneDaily" prefHeight="50.0" prefWidth="218.0" styleClass="btn" text="daily" />
+            <Button fx:id="btnMonthly" layoutX="50.0" layoutY="332.0" mnemonicParsing="false" onAction="#switchtoSceneMonthlyTicket" prefHeight="60.0" prefWidth="224.0" styleClass="btn" text="monthly" />
+            <Button fx:id="btnMenuParkingLot" layoutX="43.0" layoutY="433.0" mnemonicParsing="false" onAction="#switchtoSceneParkingLot" prefHeight="60.0" prefWidth="224.0" styleClass="btn" text="parkingLot" />
+            <Button fx:id="btnMenuAccount" layoutX="37.0" layoutY="533.0" mnemonicParsing="false" onAction="#switchtoUserAccount" prefHeight="60.0" prefWidth="224.0" styleClass="btn" text="Account" />
+            <Button fx:id="btnMenuStaticsts" layoutX="42.0" layoutY="621.0" mnemonicParsing="false" onAction="#switchtoSceneStatistics" prefHeight="60.0" prefWidth="224.0" styleClass="btn" text="staticsts" />
+            <Button fx:id="btnMenuMainMenu" layoutX="59.0" layoutY="737.0" mnemonicParsing="false" onAction="#switchtoSceneParkingMenu" prefHeight="38.0" prefWidth="181.0" styleClass="btn" text="menu" />
+            </children>
+        </AnchorPane>
+
+    </children>
+</Pane>

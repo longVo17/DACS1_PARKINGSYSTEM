@@ -1,0 +1,36 @@
+.default-color0.chart-bar { -fx-bar-fill: orange; } /* Cars */
+.default-color1.chart-bar { -fx-bar-fill: green; }
+
+.btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: transparent;
+}
+
+#table .col {
+    -fx-alignment: CENTER;
+    -fx-text-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+}
+.txtSmall {
+    -fx-font-size: 20px;
+    -fx-alignment: CENTER;
+      -fx-text-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+}
+.txtBig {
+    -fx-alignment: CENTER;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+}
+
+.datePicker {
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #310569;
+    -fx-text-alignment: CENTER;
+}
